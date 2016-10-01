@@ -54,6 +54,7 @@ public class Dfs {
 
     }
    */
+    // another method : use stack
     public static List<Tile> calculateDFS(Maze maze) {
         // TODO implement breadth first search
         // Return a path from the start to the end
