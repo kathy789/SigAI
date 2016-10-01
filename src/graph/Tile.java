@@ -4,13 +4,16 @@ public class Tile {
 
     private int x, y, cost;
     boolean visited;
-
+    private  Tile parent = null;
     public Tile(int x, int y, int cost) {
         this.x = x;
         this.y = y;
         this.cost = cost;
         this.visited = false;
     }
+    public Tile getParent(){ return parent;}
+
+    public void setParent(Tile tile) { parent = tile; }
 
     public int getX() {
         return x;
